@@ -3,3 +3,8 @@ def my_name (nombre):
     return
 my_name('wiler')
 my_name('neymar')
+
+def saludar (nombre):
+    return print(f'buenos dias {nombre}')
+
+saludar('Hilario')
