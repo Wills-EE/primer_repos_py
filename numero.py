@@ -1,6 +1,7 @@
 
 def contar (num):
     for i in range (num):
-        print(i)
-    return i
+        suma = i + num
+        print(suma)
+    return sum
 print(contar(10))
